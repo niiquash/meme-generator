@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 const Main = () => {
   const [meme, setMeme] = useState({
-    topText: "one does not simply",
-    bottomText: "walk into Mordor",
+    topText: "",
+    bottomText: "",
     imageUrl: "http://i.imgflip.com/1bij.jpg",
   });
 
@@ -40,7 +40,7 @@ const Main = () => {
           <input
             type="text"
             name="topText"
-            placeholder="one does not simply"
+            placeholder="e.g. one does not simply"
             onChange={handleChange}
             value={meme.topText}
           />
@@ -50,7 +50,7 @@ const Main = () => {
           <input
             type="text"
             name="bottomText"
-            placeholder="walk into Mordor"
+            placeholder="e.g. walk into Mordor"
             onChange={handleChange}
             value={meme.bottomText}
           />
