@@ -71,6 +71,7 @@ body {
   color: #ffffff;
   background: linear-gradient(90deg, #711f8d, #a818da);
   margin-bottom: 32px;
+  cursor: pointer;
 }
 
 .main__image--container {
@@ -81,7 +82,7 @@ body {
 
 .main__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -96,12 +97,13 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  width: 100%;
 }
 
 .top {
-  top: 16px;
+  top: 10px;
 }
 
 .bottom {
-  bottom: 16px;
+  bottom: 10px;
 }
